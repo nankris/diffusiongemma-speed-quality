@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+tokenizers
+huggingface_hub

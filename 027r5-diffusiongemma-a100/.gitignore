@@ -1,0 +1,4 @@
+__pycache__/
+*.tmp*
+results/tokenizer.json
+results/snapshot*.tar.gz
