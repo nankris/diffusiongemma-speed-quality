@@ -1,0 +1,14 @@
+{
+  "verdict": "STILL INCONCLUSIVE",
+  "validated_pairs": 0,
+  "last_observed_dg_count": 144,
+  "last_observed_ar_count": 0,
+  "target_round_1": 150,
+  "round_2_launched": false,
+  "accuracy": null,
+  "accuracy_ci": null,
+  "mcnemar_p": null,
+  "tokens_s": null,
+  "speed_ci": null,
+  "missing_scored_artifacts": true
+}

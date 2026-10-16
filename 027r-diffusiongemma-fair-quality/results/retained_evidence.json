@@ -1,0 +1,36 @@
+[
+  {
+    "timestamp": "2026-10-14T23:51:03.689487+00:00",
+    "event_type": "session_created",
+    "variant": "GPU",
+    "accelerator": "L4",
+    "machine_shape": "STANDARD"
+  },
+  {
+    "timestamp": "2026-10-15T00:52:55.368980+00:00",
+    "event_type": "session_terminated",
+    "reason": "pruned"
+  },
+  {
+    "timestamp": "2026-10-15T00:55:01.832413+00:00",
+    "event_type": "session_created",
+    "variant": "GPU",
+    "accelerator": "L4",
+    "machine_shape": "STANDARD"
+  },
+  {
+    "timestamp": "2026-10-15T01:11:08.322774+00:00",
+    "event_type": "retained_progress",
+    "text": "Scored round 1 launched: 150 pairs\n"
+  },
+  {
+    "timestamp": "2026-10-15T01:37:35.101248+00:00",
+    "event_type": "retained_progress",
+    "text": "round 1 dg 144/150 (mean 10.9s), ar 0/150 \nround 2 dg 0/150, ar 0/150 \ndeadline minutes left 79.4\n"
+  },
+  {
+    "timestamp": "2026-10-15T03:08:56.284879+00:00",
+    "event_type": "session_terminated",
+    "reason": "pruned"
+  }
+]

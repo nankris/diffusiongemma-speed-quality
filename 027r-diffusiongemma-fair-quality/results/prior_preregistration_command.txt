@@ -1,0 +1,12 @@
+/bin/bash -lc "mkdir -p 027r-diffusiongemma-fair-quality/scripts 027r-diffusiongemma-fair-quality/results; cat > 027r-diffusiongemma-fair-quality/README.md <<'EOF'
+# 027r: fair DiffusionGemma quality comparison
+
+Hypothesis: DiffusionGemma 26B-A4B Q4_K_M has higher GSM8K exact-answer accuracy than Gemma 4 26B-A4B Q4_K_M when both receive identical prompts and thinking is disabled for both.
+
+Preregistered design (before compute): round 1 uses 150 GSM8K test items sampled without replacement with seed 2701. Same question text and instruction to give a concise solution ending "'`#### <number>`, thinking off in both chat templates, identical 4096 generated-token cap. Record actual template and truncation; a failure to disable thinking invalidates the round. Same L4 hardware and CPU expert offload for both where supported; report decode tokens/s and end-to-end time separately. Keep model-specific native decoders and document their sampling settings.
+
+Decision rule: paired two-sided exact McNemar/binomial test on discordant correctness outcomes, alpha .025 per round (Bonferroni across at most two looks). PROVEN if significant and DG wins more discordant pairs; DISPROVEN if significant in the opposite direction; otherwise inconclusive. Report paired bootstrap accuracy-difference 97.5% CI (20,000 resamples, seed 2702) and per-arm Wilson 95% CIs. If round 1 is inconclusive, redesign once by increasing the cumulative sample to 400 distinct test questions, with the same controls and test threshold. Stop after round 2 even if inconclusive. Equality cannot be inferred from a nonsignificant test.
+
+Compute ceiling: 5 CU. Use a new dedicated L4 session only; stop on completion or failure. Budget or infrastructure failure is STILL INCONCLUSIVE, never a quality verdict. GPU and measured CU: pending. Original experiment remains untouched. Public GSM8K questions and model outputs only; no credentials or private data committed.
+EOF
+source /workspace/tools/setup.sh; colab --help'

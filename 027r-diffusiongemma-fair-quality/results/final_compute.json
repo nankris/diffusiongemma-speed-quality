@@ -1,0 +1,32 @@
+{
+  "allocations": [
+    {
+      "history": "initial_history.jsonl",
+      "start": "2026-10-14T23:51:03.689487+00:00",
+      "pruned": "2026-10-15T00:52:55.368980+00:00",
+      "gpu": "L4",
+      "minutes_upper": 61.86132488333333,
+      "cu_upper_at_1_54_per_hour": 1.587774005338889
+    },
+    {
+      "history": "recovery_history.jsonl",
+      "start": "2026-10-15T00:55:01.832413+00:00",
+      "pruned": "2026-10-15T03:08:56.284879+00:00",
+      "gpu": "L4",
+      "minutes_upper": 133.9075411,
+      "cu_upper_at_1_54_per_hour": 3.436960221566667
+    },
+    {
+      "start": "2026-10-15T03:22:22.222141+00:00",
+      "stopped": "2026-10-15T03:32:41.277380+00:00",
+      "gpu": "L4",
+      "minutes_upper": 10.317587316666668,
+      "cu_upper_at_1_54_per_hour": 0.2648180744611111,
+      "reason": "Stopped during setup after discovering exhausted prior budget; no inference"
+    }
+  ],
+  "total_cu_upper_estimate": 5.289552301366667,
+  "rate_cu_hour": 1.54,
+  "exact_billed_cu": null,
+  "notes": "Lifetime-based estimate, not exact billing. Shared account balance cannot isolate experiment CU. Additional allocation explicitly stopped. Budget compliance cannot be certified; estimate exceeds 5 CU."
+}

@@ -1,0 +1,8 @@
+{
+  "session": "tig027r-fair",
+  "created_at": "2026-10-14T23:51:03.689487+00:00",
+  "gpu": "NVIDIA L4",
+  "rate_cu_per_hour": 1.54,
+  "rate_source": "colab usage: 3.08 CU/h with two L4 assignments; original measured L4 rate 1.54 CU/h",
+  "account_shared": true
+}

@@ -1,0 +1,11 @@
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- llama.cpp version: 0.6.0-dev
+CMAKE_BUILD_TYPE=Release
+-- Found Git: /usr/bin/git (found version "2.43.0")
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+DG_DL_DONE 0
+16G	/content/m/dg/diffusiongemma-26B-A4B-it-Q4_K_M.gguf
+ls: cannot access '/content/llama.cpp/build/bin/llama*': No such file or directory
