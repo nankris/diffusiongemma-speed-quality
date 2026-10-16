@@ -1,0 +1,42 @@
+
+<|channel>thought
+*   Goal: Write a Python function `fib(n)`.
+    *   Requirement: Return the n-th Fibonacci number.
+    *   Base cases: `fib(0)=0`, `fib(1)=1`.
+    *   Method: Iterative.
+    *   Output format: Only the code in a ```python block.
+
+    *   For $n=0$, return 0.
+    *   For $n=1$, return 1.
+    *   For $n > 1$, start with $a=0, b=1$. Loop from 2 to $n$.
+    *   Update $a, b = b, a+b$.
+    *   Return $b$.
+
+    ```python
+    def fib(n):
+        if n == 0:
+            return 0
+        if n == 1:
+            return 1
+        a, b = 0, 1
+        for _ in range(2, n + 1):
+            a, b = b, a + b
+        return b
+    ```
+
+    *   `fib(0)` -> returns 0 (correct).
+    *   `fib(1)` -> returns 1 (correct).
+    *   `fib(2)` -> loop range(2, 3) runs once. $a, b = 1, 1$. Returns 1 (correct).
+    *   `fib(3)` -> loop range(2, 4) runs twice. 1st: $a=1, b=1$. 2nd: $a=1, b=2$. Returns 2 (correct).<channel|>```python
+def fib(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    a, b = 0, 1
+    for _ in range(2, n + 1):
+        a, b = b, a + b
+    return b
+```
+total time: 4752.77ms, time per step: 237.64ms (20 steps over 2 blocks, entropy-bound)
+throughput: 107.7 tok/s (512 tok in 4752.77ms), in-step parallel 1077 tok/s (256-tok canvas x 10.0 steps/block)

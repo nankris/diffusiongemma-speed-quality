@@ -1,0 +1,29 @@
+
+<|channel>thought
+*   Teaching rate: $20/hour
+    *   Coaching rate: $30/hour
+    *   Weeks worked per year: 50
+    *   Teaching hours per week: 35
+    *   Coaching hours per week: 15
+
+    *   Teaching income per week = $20/hour * 35 hours = $700
+    *   Coaching income per week = $30/hour * 15 hours = $450
+    *   Total weekly income = $700 + $450 = $1150
+
+    *   Annual income = $1150/week * 50 weeks
+    *   $1150 * 50 = 115 * 5 * 100 = 575 * 100 = $57500
+
+    *   Teaching: $20 * 35 * 50 = $700 * 50 = $35,000
+    *   Coaching: $30 * 15 * 50 = $450 * 50 = $22,500
+    *   Total: $35,000 + $22,500 = $57,500
+
+    *   Teaching: 20 * 35 * 50 = 35,000
+    *   Coaching: 30 * 15 * 50 = 22,500
+    *   Total: 35,000 + 22,500 = 57,500
+    *   The calculation is correct.<channel|>Teaching: $20/hour × 35 hours/week × 50 weeks = $35,000
+Coaching: $30/hour × 15 hours/week × 50 weeks = $22,500
+Total annual salary: $35,000 + $22,500 = $57,500
+
+Answer: 57500
+total time: 8878.00ms, time per step: 355.12ms (25 steps over 2 blocks, entropy-bound)
+throughput: 57.7 tok/s (512 tok in 8878.00ms), in-step parallel 721 tok/s (256-tok canvas x 12.5 steps/block)

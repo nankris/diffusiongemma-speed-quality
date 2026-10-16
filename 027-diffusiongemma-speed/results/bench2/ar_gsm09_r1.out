@@ -1,0 +1,43 @@
+system
+
+
+user
+Eliza's rate per hour for the first 40 hours she works each week is $10. She also receives an overtime pay of 1.2 times her regular hourly rate. If Eliza worked for 45 hours this week, how much are her earnings for this week? Solve briefly and end with 'Answer: <number>'.
+model
+<|channel>thought
+*   Regular rate: $10/hour.
+    *   Regular hours: First 40 hours.
+    *   Overtime rate: 1.2 times the regular rate.
+    *   Total hours worked: 45 hours.
+    *   Goal: Calculate total earnings for the week.
+
+    *   Regular hours = 40 hours.
+    *   Overtime hours = Total hours - Regular hours = 45 - 40 = 5 hours.
+
+    *   Regular pay = Regular hours × Regular rate
+    *   Regular pay = 40 hours × $10/hour = $400.
+
+    *   Overtime rate = 1.2 × Regular rate
+    *   Overtime rate = 1.2 × $10 = $12/hour.
+    *   Overtime pay = Overtime hours × Overtime rate
+    *   Overtime pay = 5 hours × $12/hour = $60.
+
+    *   Total earnings = Regular pay + Overtime pay
+    *   Total earnings = $400 + $60 = $460.
+
+    *   Regular pay: 40 * 10 = 400.
+    *   Overtime rate: 10 * 1.2 = 12.
+    *   Overtime hours: 45 - 40 = 5.
+    *   Overtime pay: 5 * 12 = 60.
+    *   Total: 400 + 60 = 460.
+
+    *   Briefly solve.
+    *   End with 'Answer: <number>'.<channel|>Regular pay: 40 hours × $10/hour = $400
+Overtime rate: $10 × 1.2 = $12/hour
+Overtime hours: 45 hours - 40 hours = 5 hours
+Overtime pay: 5 hours × $12/hour = $60
+Total earnings: $400 + $60 = $460
+
+Answer: 460 [end of text]
+
+

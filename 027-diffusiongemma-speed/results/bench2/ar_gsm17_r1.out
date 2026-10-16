@@ -1,0 +1,41 @@
+system
+
+
+user
+Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she works 50 weeks a year, 35 hours a week as a teacher and 15 hours a week as a coach, what's her annual salary? Solve briefly and end with 'Answer: <number>'.
+model
+<|channel>thought
+*   Teaching pay: $20/hour
+    *   Coaching pay: $30/hour
+    *   Weeks per year: 50
+    *   Teaching hours per week: 35
+    *   Coaching hours per week: 15
+
+    *   Teaching income per week = 35 hours * $20/hour = $700
+    *   Coaching income per week = 15 hours * $30/hour = $450
+    *   Total income per week = $700 + $450 = $1,150
+
+    *   Annual salary = Total income per week * 50 weeks
+    *   Annual salary = $1,150 * 50
+
+    *   1,150 * 50 = 1,150 * 100 / 2 = 115,000 / 2 = 57,500
+    *   Alternatively: 1,150 * 5 = 5,750; 5,750 * 10 = 57,500
+
+    *   Teaching: 35 * 20 * 50 = 700 * 50 = 35,000
+    *   Coaching: 15 * 30 * 50 = 450 * 50 = 22,500
+    *   Total: 35,000 + 22,500 = 57,500
+
+    *   Teaching: 35 * 20 = 700
+    *   Coaching: 15 * 30 = 450
+    *   Weekly: 700 + 450 = 1150
+    *   Annual: 1150 * 50 = 57500
+
+    *   Briefly solve.
+    *   End with 'Answer: <number>'.<channel|>Teaching income per week: 35 hours × $20/hour = $700
+Coaching income per week: 15 hours × $30/hour = $450
+Total weekly income: $700 + $450 = $1,150
+Annual salary: $1,150 × 50 weeks = $57,500
+
+Answer: 57500 [end of text]
+
+

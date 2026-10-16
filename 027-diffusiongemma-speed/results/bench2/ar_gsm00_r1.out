@@ -1,0 +1,32 @@
+system
+
+
+user
+Janet’s ducks lay 16 eggs per day. She eats three for breakfast every morning and bakes muffins for her friends every day with four. She sells the remainder at the farmers' market daily for $2 per fresh duck egg. How much in dollars does she make every day at the farmers' market? Solve briefly and end with 'Answer: <number>'.
+model
+<|channel>thought
+*   Total eggs laid per day: 16
+    *   Eggs eaten for breakfast: 3
+    *   Eggs used for muffins: 4
+    *   Price per egg sold: $2
+
+    *   Total eggs laid: 16
+    *   Eggs used (breakfast + muffins): 3 + 4 = 7
+    *   Eggs remaining for sale: 16 - 7 = 9
+
+    *   Eggs sold: 9
+    *   Price per egg: $2
+    *   Total money made: 9 * $2 = $18
+
+    *   16 - 3 - 4 = 9
+    *   9 * 2 = 18
+
+    *   Briefly solve.
+    *   End with 'Answer: <number>'.<channel|>Total eggs laid: 16
+Eggs used (3 for breakfast + 4 for muffins): 7
+Eggs remaining to sell: 16 - 7 = 9
+Money made: 9 eggs × $2/egg = $18
+
+Answer: 18 [end of text]
+
+

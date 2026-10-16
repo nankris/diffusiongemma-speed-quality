@@ -1,0 +1,32 @@
+0.00.979.602 W load: control-looking token:    212 '</s>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.00.980.276 W load: control-looking token:     50 '<|tool_response>' was not control-type; this is probably a bug in the model. its type will be overridden
+0.01.018.179 W load: '</s>' is a normal token here, removing it from EOG list
+0.05.631.150 I diffusion: -n 2048 -> 8 blocks, n_ubatch=4096 n_batch=4096 n_ctx=4096 (canvas_length=256)
+0.05.631.165 I diffusion: --fit has no effect here; context is sized from -n and the canvas. Set -ngl / --n-cpu-moe to control device memory.
+0.05.638.251 W resolve_fused_ops: layer 5 is assigned to device CUDA0 but Flash Attention is assigned to device CPU (usually due to missing support)
+0.05.638.259 W resolve_fused_ops: Flash Attention not supported, set to disabled
+0.12.119.833 I diffusion_params: steps=128 schedule=0 algorithm=4 temperature=0.800 eps=0.001000 mask_token=4
+0.12.119.852 I diffusion_eb: max_steps=48 t=[0.400,0.800] entropy_bound=0.1000 stability=1 confidence=0.0050 kv_cache=on gpu_sampling=on sample_reduce=on
+0.12.122.601 W init: embeddings required but some input tokens were not marked as outputs -> overriding
+/content/llama.cpp/src/models/diffusion-gemma.cpp:775: GGML_ASSERT(m.sc_dev_buf != nullptr) failed
+0.12.548.367 E ggml_backend_cuda_buffer_type_alloc_buffer: allocating 256.00 MiB on device 0: cudaMalloc failed: out of memory
+0.12.548.380 E ggml_backend_buft_alloc_buffer_n_default: failed to allocate CUDA0 buffer of size 268435456
+/content/llama.cpp/build/bin/libggml-base.so.0(+0x1671b)[0x77fff322471b]
+/content/llama.cpp/build/bin/libggml-base.so.0(+0x16b9c)[0x77fff3224b9c]
+/content/llama.cpp/build/bin/libggml-base.so.0(ggml_abort+0x15b)[0x77fff3224d7b]
+/content/llama.cpp/build/bin/libllama.so.0(+0x1c2a6b)[0x77fff34aea6b]
+/content/llama.cpp/build/bin/libllama.so.0(+0x1c2df9)[0x77fff34aedf9]
+/content/llama.cpp/build/bin/libllama.so.0(_ZN27llama_model_diffusion_gemma5graphC2ERK11llama_modelRK16llm_graph_params+0x2a5f)[0x77fff34c910f]
+/content/llama.cpp/build/bin/libllama.so.0(_ZNK27llama_model_diffusion_gemma16build_arch_graphERK16llm_graph_params+0x32)[0x77fff34c9452]
+/content/llama.cpp/build/bin/libllama.so.0(_ZNK11llama_model11build_graphERK16llm_graph_params+0x2f)[0x77fff35ef16f]
+/content/llama.cpp/build/bin/libllama.so.0(_ZN13llama_context14process_ubatchERK12llama_ubatch14llm_graph_typeP22llama_memory_context_iR11ggml_status+0xea)[0x77fff351245a]
+/content/llama.cpp/build/bin/libllama.so.0(_ZN13llama_context6encodeERK15llama_batch_ext+0x2bc)[0x77fff3519d3c]
+/content/llama.cpp/build/bin/libllama.so.0(_ZN13llama_context6decodeERK11llama_batch+0x3c)[0x77fff351cf3c]
+/content/llama.cpp/build/bin/libllama.so.0(llama_decode+0xf)[0x77fff351cf7f]
+/content/llama.cpp/build/bin/llama-diffusion-cli(+0x1b952)[0x591008eb7952]
+/content/llama.cpp/build/bin/llama-diffusion-cli(+0xd484)[0x591008ea9484]
+/content/llama.cpp/build/bin/llama-diffusion-cli(+0xb681)[0x591008ea7681]
+/lib/x86_64-linux-gnu/libc.so.6(+0x2a1ca)[0x77fff2c7e1ca]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x8b)[0x77fff2c7e28b]
+/content/llama.cpp/build/bin/llama-diffusion-cli(+0xbf75)[0x591008ea7f75]
+timeout: the monitored command dumped core

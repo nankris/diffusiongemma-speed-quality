@@ -1,0 +1,50 @@
+system
+
+
+user
+Toula went to the bakery and bought various types of pastries. She bought 3 dozen donuts which cost $68 per dozen, 2 dozen mini cupcakes which cost $80 per dozen, and 6 dozen mini cheesecakes for $55 per dozen. How much was the total cost? Solve briefly and end with 'Answer: <number>'.
+model
+<|channel>thought
+*   Donuts: 3 dozen at $68 per dozen.
+    *   Mini cupcakes: 2 dozen at $80 per dozen.
+    *   Mini cheesecakes: 6 dozen at $55 per dozen.
+
+    *   Cost of donuts = 3 * 68
+    *   Cost of mini cupcakes = 2 * 80
+    *   Cost of mini cheesecakes = 6 * 55
+
+    *   3 * 68:
+        3 * 60 = 180
+        3 * 8 = 24
+        180 + 24 = 204
+    *   2 * 80:
+        2 * 80 = 160
+    *   6 * 55:
+        6 * 50 = 300
+        6 * 5 = 30
+        300 + 30 = 330
+
+    *   Total cost = 204 + 160 + 330
+    *   204 + 160 = 364
+    *   364 + 330 = 694
+
+    *   Donuts: 3 * 68 = 204
+    *   Cupcakes: 2 * 80 = 160
+    *   Cheesecakes: 6 * 55 = 330
+    *   Total: 204 + 160 + 330 = 694.
+
+    *   3 * 68 = 204 (Correct)
+    *   2 * 80 = 160 (Correct)
+    *   6 * 55 = 330 (Correct)
+    *   204 + 160 + 330 = 694 (Correct)
+
+    *   Briefly solve.
+    *   End with 'Answer: <number>'.<channel|>Donuts: 3 dozen × $68/dozen = $204
+Mini cupcakes: 2 dozen × $80/dozen = $160
+Mini cheesecakes: 6 dozen × $55/dozen = $330
+
+Total cost: $204 + $160 + $330 = $694
+
+Answer: 694 [end of text]
+
+

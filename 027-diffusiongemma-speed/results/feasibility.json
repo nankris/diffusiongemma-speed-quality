@@ -1,0 +1,14 @@
+{
+ "model": "google/diffusiongemma-26B-A4B-it",
+ "total_params": 25823778864,
+ "weights_gb": {
+  "BF16 (google)": 51.7,
+  "GGUF Q4_K_M": 16.8,
+  "GGUF Q5_K_M": 19.1,
+  "GGUF Q6_K": 22.7,
+  "GGUF Q8_0": 26.9
+ },
+ "t4_vram_gb": 15.0,
+ "t4_usable_vram_gb_reported_by_torch": 14.56,
+ "verdict": "does not fit on T4; smallest published quant (Q4_K_M, 16.8 GB) exceeds 15 GB VRAM before KV cache/activations"
+}

@@ -1,0 +1,35 @@
+system
+
+
+user
+Toulouse has twice as many sheep as Charleston. Charleston has 4 times as many sheep as Seattle. How many sheep do Toulouse, Charleston, and Seattle have together if Seattle has 20 sheep? Solve briefly and end with 'Answer: <number>'.
+model
+<|channel>thought
+*   Seattle (S) = 20 sheep.
+    *   Charleston (C) = 4 * Seattle (S).
+    *   Toulouse (T) = 2 * Charleston (C).
+    *   Goal: Find the total number of sheep (T + C + S).
+
+    *   S = 20.
+    *   C = 4 * 20 = 80.
+    *   T = 2 * 80 = 160.
+
+    *   Total = T + C + S
+    *   Total = 160 + 80 + 20
+    *   Total = 240 + 20
+    *   Total = 260.
+
+    *   Seattle: 20
+    *   Charleston: 4 * 20 = 80
+    *   Toulouse: 2 * 80 = 160
+    *   Total: 20 + 80 + 160 = 260.
+
+    *   Briefly solve.
+    *   End with 'Answer: <number>'.<channel|>Seattle has 20 sheep.
+Charleston has 4 times as many as Seattle: 4 × 20 = 80 sheep.
+Toulouse has twice as many as Charleston: 2 × 80 = 160 sheep.
+Total sheep: 20 + 80 + 160 = 260.
+
+Answer: 260 [end of text]
+
+

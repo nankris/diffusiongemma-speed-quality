@@ -1,0 +1,44 @@
+
+<|channel>thought
+*   Purchase price: $80,000
+    *   Repair costs: $50,000
+    *   Increase in house value: 150%
+    *   Goal: Find the profit.
+
+    *   Total cost = Purchase price + Repair costs
+    *   Total cost = $80,000 + $50,000 = $130,000
+
+    *   The problem says "This increased the value of the house by 150%."
+    *   Wait, does "increased... by 150%" mean the new value is 150% of the original, or the original plus 150% of the original?
+    *   Usually, "increased by X%" means: New value = Old value + (X/100) * Old value.
+    *   Increase amount = 1.50 * $80,000 = $120,000.
+    *   New value = Original value + Increase
+    *   New value = $80,000 + $120,000 = $200,000.
+
+    *   Profit = New value - Total cost
+    *   Profit = $200,000 - $130,000 = $70,000.
+
+    *   Initial cost: $80,000
+    *   Repairs: $50,000
+    *   Total investment: $130,000
+    *   Value increase: 150% of $80,000 = 1.5 * 80,000 = $120,000
+    *   Final selling price: $80,000 + $120,000 = $200,000
+    *   Profit: $200,000 - $130,000 = $70,000.
+
+    *   If "increased the value *to* 150%", the new value would be 1.5 * 80,000 = $120,000. This would be a loss ($120,000 - $130,000).
+    *   The wording is "increased... *by* 150%", which clearly implies adding the increase.
+
+    *   Total cost = $80,000 + $50,000 = $130,000.
+    *   Value increase = 150% of $80,000 = $120,000.
+    *   Final value = $80,000 + $120,000 = $200,000.
+    *   Profit = $200,000 - $130,000 = $70,000.<channel|>To find the profit, we first determine the total cost and the final value of the house.
+
+1.  **Total Cost:** $80,000 (purchase) + $50,000 (repairs) = $130,000.
+2.  **Increase in Value:** The value increased by 150% of the original purchase price.
+    150% of $80,000 = 1.5 × $80,000 = $120,000.
+3.  **Final Value:** $80,000 (original value) + $120,000 (increase) = $200,000.
+4.  **Profit:** $200,000 (final value) - $130,000 (total cost) = $70,000.
+
+Answer: 70000
+total time: 20876.85ms, time per step: 372.80ms (56 steps over 4 blocks, entropy-bound)
+throughput: 49.0 tok/s (1024 tok in 20876.85ms), in-step parallel 687 tok/s (256-tok canvas x 14.0 steps/block)

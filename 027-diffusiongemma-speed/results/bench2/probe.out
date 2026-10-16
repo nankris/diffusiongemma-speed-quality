@@ -1,0 +1,10 @@
+
+<|channel>thought
+The user wants to count from 1 to 5.
+
+    *   Start: 1
+    *   End: 5
+    *   Increment: 1
+1, 2, 3, 4, 5.<channel|>1, 2, 3, 4, 5
+total time: 3165.35ms, time per step: 316.54ms (10 steps over 1 blocks, entropy-bound)
+throughput: 80.9 tok/s (256 tok in 3165.35ms), in-step parallel 809 tok/s (256-tok canvas x 10.0 steps/block)

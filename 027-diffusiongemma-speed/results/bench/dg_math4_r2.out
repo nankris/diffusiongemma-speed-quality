@@ -1,0 +1,25 @@
+
+<|channel>thought
+*   Sprints per session: 3
+    *   Times per week: 3
+    *   Distance per sprint: 60 meters
+    *   Goal: Total meters run per week.
+
+    *   Total sprints per week = (Sprints per session) × (Times per week)
+    *   Total sprints per week = 3 × 3 = 9
+
+    *   Total meters per week = (Total sprints per week) × (Distance per sprint)
+    *   Total meters per week = 9 × 60
+
+    *   9 × 60 = 540
+
+    *   3 sprints * 3 times = 9 sprints.
+    *   9 sprints * 60 meters = 540 meters.
+
+    *   Solve briefly.
+    *   End with "Answer: <number>".<channel|>James runs 3 sprints 3 times a week, which is 9 sprints total.
+9 sprints × 60 meters per sprint equals 540 meters.
+
+Answer: 540
+total time: 2726.22ms, time per step: 227.19ms (12 steps over 1 blocks, entropy-bound)
+throughput: 93.9 tok/s (256 tok in 2726.22ms), in-step parallel 1127 tok/s (256-tok canvas x 12.0 steps/block)

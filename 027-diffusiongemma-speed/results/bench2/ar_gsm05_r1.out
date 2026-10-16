@@ -1,0 +1,57 @@
+system
+
+
+user
+Kylar went to the store to buy glasses for his new apartment. One glass costs $5, but every second glass costs only 60% of the price. Kylar wants to buy 16 glasses. How much does he need to pay for them? Solve briefly and end with 'Answer: <number>'.
+model
+<|channel>thought
+*   Item: Glasses.
+    *   Cost of the first glass: $5.
+    *   Cost of every second glass: 60% of the price of the first glass.
+    *   Total number of glasses to buy: 16.
+    *   Goal: Find the total cost.
+
+    *   Price of the 1st glass = $5.
+    *   Price of the 2nd glass = 60% of $5 = 0.60 * 5 = $3.
+    *   Price of the 3rd glass = $5.
+    *   Price of the 4th glass = $3.
+    *   ...and so on.
+
+    *   The glasses are bought in pairs (one at $5 and one at $3).
+    *   Total number of glasses = 16.
+    *   Number of pairs = 16 / 2 = 8 pairs.
+
+    *   Cost of one pair = $5 + $3 = $8.
+    *   Total cost = 8 pairs * $8 per pair = $64.
+
+    *   16 glasses total.
+    *   8 glasses at $5 each = 8 * 5 = $40.
+    *   8 glasses at $3 each = 8 * 3 = $24.
+    *   Total cost = $40 + $24 = $64.
+
+    *   Cost of 1st glass: $5.
+    *   Cost of 2nd glass: 60% of $5 = $3.
+    *   Total glasses: 16.
+    *   Pairs: 16 / 2 = 8.
+    *   Cost per pair: $5 + $3 = $8.
+    *   Total cost: 8 * $8 = $64.
+
+    *   "Solve briefly and end with 'Answer: <number>'."
+
+    *   Cost of one glass = $5.
+    *   Cost of every second glass = 60% of $5 = $3.
+    *   Total glasses = 16.
+    *   Number of pairs = 16 / 2 = 8.
+    *   Cost per pair = $5 + $3 = $8.
+    *   Total cost = 8 * $8 = $64.
+    *   Answer: 64.<channel|>Cost of the first glass = $5
+Cost of every second glass = 60% of $5 = 0.60 × $5 = $3
+
+Kylar is buying 16 glasses, which can be divided into 8 pairs.
+Each pair consists of one $5 glass and one $3 glass.
+Cost per pair = $5 + $3 = $8
+Total cost = 8 pairs × $8 = $64
+
+Answer: 64 [end of text]
+
+

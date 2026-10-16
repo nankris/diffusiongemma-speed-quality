@@ -1,0 +1,52 @@
+
+<|channel>thought
+*   Total students = 20
+    *   Contemporary dance = 20% of total students.
+    *   Jazz dance = 25% of the *remaining* students.
+    *   Hip-hop dance = The rest.
+    *   Goal: Find the percentage of total students in hip-hop dance.
+
+    *   Contemporary = 20% of 20
+    *   Contemporary = 0.20 * 20 = 4 students.
+
+    *   Remaining = Total - Contemporary
+    *   Remaining = 20 - 4 = 16 students.
+
+    *   Jazz = 25% of remaining students
+    *   Jazz = 0.25 * 16 = 4 students.
+
+    *   Hip-hop = Remaining - Jazz
+    *   Hip-hop = 16 - 4 = 12 students.
+
+    *   Percentage = (Hip-hop / Total students) * 100
+    *   Percentage = (12 / 20) * 100
+    *   Percentage = 0.6 * 100 = 60%.
+
+    *   Contemporary: 20%
+    *   Jazz: 25% of (100% - 20%) = 25% of 80% = 20%.
+    *   Hip-hop: 100% - (20% + 20%) = 100% - 40% = 60%.
+
+    *   Total students = 20.
+    *   Contemporary = 20% of 20 = 4.
+    *   Remaining = 20 - 4 = 16.
+    *   Jazz = 25% of 16 = 4.
+    *   Hip-hop = 16 - 4 = 12.
+    *   Hip-hop percentage = (12/20) * 100 = 60%.
+
+The question asks for the percentage of the entire students enrolled in hip-hop dance.
+
+1. Contemporary dance: 20% of 20 = 4 students.
+2. Remaining students: 20 - 4 = 16 students.
+3. Jazz dance: 25% of 16 = 4 students.
+4. Hip-hop dance: 16 - 4 = 12 students.
+5. Percentage of hip-hop: (12 / 20) * 100 = 60%.
+
+Answer: 60%<channel|>1. **Contemporary dance:** 20% of 20 students = 4 students.
+2. **Remaining students:** 20 - 4 = 16 students.
+3. **Jazz dance:** 25% of the remaining 16 students = 4 students.
+4. **Hip-hop dance:** 16 - 4 = 12 students.
+5. **Percentage of hip-hop:** (12 / 20) × 100 = 60%.
+
+Answer: 60%
+total time: 13340.48ms, time per step: 370.57ms (36 steps over 3 blocks, entropy-bound)
+throughput: 57.6 tok/s (768 tok in 13340.48ms), in-step parallel 691 tok/s (256-tok canvas x 12.0 steps/block)

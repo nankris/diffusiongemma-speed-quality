@@ -1,0 +1,32 @@
+
+<|channel>thought
+*   Raymond and Samantha are cousins.
+    *   Raymond was born 6 years before Samantha.
+    *   Raymond had a son at the age of 23.
+    *   Samantha is currently 31.
+    *   Goal: Find how many years ago Raymond's son was born.
+
+    *   Samantha's age = 31.
+    *   Raymond was born 6 years before Samantha.
+    *   Raymond's age = Samantha's age + 6 = 31 + 6 = 37.
+
+    *   Raymond had a son when he was 23.
+    *   Son's current age = Raymond's current age - age when son was born.
+    *   Son's current age = 37 - 23 = 14.
+
+    *   The son was born 14 years ago.
+
+    *   Samantha: 31
+    *   Raymond: 31 + 6 = 37
+    *   Son: 37 - 23 = 14
+    *   The son was born 14 years ago.
+
+    *   "Solve briefly and end with 'Answer: <number>'."<channel|>1. Samantha is 31.
+2. Raymond was born 6 years before Samantha, so he is 31 + 6 = 37 years old.
+3. Raymond had a son at age 23.
+4. The son's age is 37 - 23 = 14.
+Therefore, the son was born 14 years ago.
+
+Answer: 14
+total time: 9230.32ms, time per step: 355.01ms (26 steps over 2 blocks, entropy-bound)
+throughput: 55.5 tok/s (512 tok in 9230.32ms), in-step parallel 721 tok/s (256-tok canvas x 13.0 steps/block)

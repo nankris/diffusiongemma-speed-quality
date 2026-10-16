@@ -1,0 +1,64 @@
+system
+
+
+user
+Write a Python function `merge_intervals(intervals)` that merges overlapping [start, end] intervals and returns them sorted. Output only the code in a ```python block.
+model
+<|channel>thought
+*   Input: A list of intervals `intervals`, where each interval is a list/tuple `[start, end]`.
+    *   Output: A list of merged intervals, sorted by start time.
+    *   Constraint: Output *only* the code in a ```python block.
+
+    *   Sort the intervals based on the start time.
+    *   Initialize an empty list `merged` to store the result.
+    *   Iterate through the sorted intervals.
+    *   For each interval:
+        *   If `merged` is empty or the current interval's start is greater than the last interval's end in `merged`, append the current interval.
+        *   Otherwise (there is an overlap), update the end of the last interval in `merged` to be the maximum of its current end and the current interval's end.
+    *   Return `merged`.
+
+    ```python
+    def merge_intervals(intervals):
+        if not intervals:
+            return []
+
+        # Sort intervals by start time
+        intervals.sort(key=lambda x: x[0])
+
+        merged = []
+        for interval in intervals:
+            # If merged is empty or no overlap with the last interval
+            if not merged or interval[0] > merged[-1][1]:
+                merged.append(interval)
+            else:
+                # There is an overlap, merge by updating the end time
+                merged[-1][1] = max(merged[-1][1], interval[1])
+
+        return merged
+    ```
+
+    *   Function name: `merge_intervals(intervals)`.
+    *   Logic: Correct.
+    *   Output format: Only code in a ```python block.<channel|>```python
+def merge_intervals(intervals):
+    if not intervals:
+        return []
+
+    # Sort the intervals based on the start time
+    intervals.sort(key=lambda x: x[0])
+
+    merged = []
+    for interval in intervals:
+        # If the list of merged intervals is empty or if the current 
+        # interval does not overlap with the previous, append it.
+        if not merged or interval[0] > merged[-1][1]:
+            merged.append(interval)
+        else:
+            # There is an overlap, so merge the current and previous 
+            # intervals by updating the end time of the last interval.
+            merged[-1][1] = max(merged[-1][1], interval[1])
+
+    return merged
+``` [end of text]
+
+

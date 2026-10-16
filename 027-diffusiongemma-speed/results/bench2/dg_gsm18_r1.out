@@ -1,0 +1,35 @@
+
+<|channel>thought
+*   Claire eats 3 eggs every morning.
+    *   Time period: 4 weeks.
+    *   Goal: Find the total number of dozens of eggs eaten in 4 weeks.
+
+    *   Eggs per day = 3
+    *   Days per week = 7
+    *   Total weeks = 4
+
+    *   Total eggs = (Eggs per day) × (Days per week) × (Number of weeks)
+    *   Total eggs = 3 * 7 * 4
+
+    *   3 * 7 = 21
+    *   21 * 4 = 84
+
+    *   1 dozen = 12 eggs
+    *   Total dozens = Total eggs / 12
+    *   Total dozens = 84 / 12
+
+    *   84 / 12 = 7
+
+    *   3 eggs/day * 7 days/week = 21 eggs/week.
+    *   21 eggs/week * 4 weeks = 84 eggs.
+    *   84 eggs / 12 eggs/dozen = 7 dozen.
+
+    *   Solve briefly.
+    *   End with 'Answer: <number>'.<channel|>Eggs per day: 3
+Eggs per week: 3 × 7 = 21
+Total eggs in 4 weeks: 21 × 4 = 84
+Dozens of eggs: 84 / 12 = 7
+
+Answer: 7
+total time: 7276.05ms, time per step: 363.80ms (20 steps over 2 blocks, entropy-bound)
+throughput: 70.4 tok/s (512 tok in 7276.05ms), in-step parallel 704 tok/s (256-tok canvas x 10.0 steps/block)

@@ -1,0 +1,27 @@
+system
+
+
+user
+James decides to run 3 sprints 3 times a week.  He runs 60 meters each sprint.  How many total meters does he run a week? Solve briefly and end with 'Answer: <number>'.
+model
+<|channel>thought
+*   Sprints per session: 3
+    *   Sessions per week: 3
+    *   Distance per sprint: 60 meters
+
+    *   Total sprints per week = (Sprints per session) × (Sessions per week)
+    *   Total sprints per week = 3 × 3 = 9
+    *   Total distance per week = (Total sprints per week) × (Distance per sprint)
+    *   Total distance per week = 9 × 60
+
+    *   9 × 60 = 540
+
+    *   3 sprints/session * 3 sessions/week = 9 sprints/week
+    *   9 sprints/week * 60 meters/sprint = 540 meters/week
+
+    *   Briefly solve.
+    *   End with 'Answer: <number>'.<channel|>James runs 3 sprints per session and 3 sessions per week, totaling 9 sprints per week (3 × 3 = 9). Since each sprint is 60 meters, the total distance is 9 × 60 = 540 meters.
+
+Answer: 540 [end of text]
+
+

@@ -1,0 +1,38 @@
+system
+
+
+user
+Josh decides to try flipping a house. He buys a house for $80,000 and then puts in $50,000 in repairs. This increased the value of the house by 150%. How much profit did he make? Solve briefly and end with 'Answer: <number>'.
+model
+<|channel>thought
+*   Purchase price: $80,000
+    *   Repair cost: $50,000
+    *   Total investment: $80,000 + $50,000 = $130,000
+    *   Value increase: 150% of the *original* value? Or 150% *of* the original value? Let's re-read: "This increased the value of the house by 150%."
+    *   Wait, "increased the value... by 150%" means the new value is the original value plus 150% of the original value.
+    *   Original value (purchase price): $80,000
+    *   Increase: 150% of $80,000 = 1.5 * $80,000 = $120,000
+    *   New value: $80,000 + $120,000 = $200,000
+
+    *   Total investment = $80,000 (purchase) + $50,000 (repairs) = $130,000
+    *   New value = $200,000
+    *   Profit = New value - Total investment
+    *   Profit = $200,000 - $130,000 = $70,000
+
+    *   "This increased the value of the house by 150%."
+    *   If the value was $80,000 and it increased *by* 150%, the increase is $120,000.
+    *   New value = $80,000 + $120,000 = $200,000.
+    *   Total cost = $80,000 + $50,000 = $130,000.
+    *   Profit = $200,000 - $130,000 = $70,000.
+
+    *   What if "increased the value of the house by 150%" meant the new value is 150% of the original?
+        *   New value = 1.5 * $80,000 = $120,000.
+        *   Profit = $120,000 - $130,000 = -$10,000 (a loss).
+        *   Usually, "increased by X%" means (1 + X/100) * original.
+    *   What if the increase was 150% of the *total investment*?
+        *   "This increased the value of the house by 150%." This usually refers to the value of the house itself.
+    *   Let's re-read: "He buys a house for $80,000 and then puts in $50,000 in repairs. This increased the value of the house by 150%."
+        *   The "this" refers to the repairs.
+        *   The value of the house (initially $80,000) increased by 150%.
+        *   Increase = 1.5 * $80,
+

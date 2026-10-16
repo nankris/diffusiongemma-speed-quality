@@ -1,0 +1,54 @@
+system
+
+
+user
+Write a Python function `is_palindrome(s)` that returns True if the string is a palindrome ignoring case and non-alphanumeric characters. Output only the code in a ```python block.
+model
+<|channel>thought
+*   Goal: Write a Python function `is_palindrome(s)`.
+    *   Input: A string `s`.
+    *   Output: Boolean (`True` if palindrome, `False` otherwise).
+    *   Conditions:
+        *   Ignore case (case-insensitive).
+        *   Ignore non-alphanumeric characters (punctuation, spaces, etc.).
+    *   Constraint: Output *only* the code in a ```python block.
+
+    *   Step 1: Clean the string.
+        *   Convert to lowercase.
+        *   Filter out characters that are not alphanumeric (`isalnum()`).
+    *   Step 2: Check if the cleaned string is equal to its reverse.
+
+    ```python
+    def is_palindrome(s):
+        # Filter alphanumeric characters and convert to lowercase
+        cleaned = "".join(char.lower() for char in s if char.isalnum())
+        # Check if cleaned string is equal to its reverse
+        return cleaned == cleaned[::-1]
+    ```
+
+    *   `s = "A man, a plan, a canal: Panama"`
+        *   `cleaned` -> `"amanaplanacanalpanama"`
+        *   `cleaned[::-1]` -> `"amanaplanacanalpanama"`
+        *   Result: `True`
+    *   `s = "race a car"`
+        *   `cleaned` -> `"raceacar"`
+        *   `cleaned[::-1]` -> `"racaecar"`
+        *   Result: `False`
+    *   `s = " "`
+        *   `cleaned` -> `""`
+        *   `cleaned[::-1]` -> `""`
+        *   Result: `True` (Empty string is technically a palindrome)
+
+    *   The user requested *only* the code in a ```python block.
+
+    ```python
+    def is_palindrome(s):
+        cleaned = "".join(char.lower() for char in s if char.isalnum())
+        return cleaned == cleaned[::-1]
+    ```<channel|>```python
+def is_palindrome(s):
+    cleaned = "".join(char.lower() for char in s if char.isalnum())
+    return cleaned == cleaned[::-1]
+``` [end of text]
+
+

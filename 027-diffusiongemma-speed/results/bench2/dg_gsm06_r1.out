@@ -1,0 +1,29 @@
+
+<|channel>thought
+*   Seattle (S) = 20 sheep.
+    *   Charleston (C) = 4 * Seattle.
+    *   Toulouse (T) = 2 * Charleston.
+    *   Find total (T + C + S).
+
+    *   S = 20
+    *   C = 4 * S = 4 * 20 = 80
+    *   T = 2 * C = 2 * 80 = 160
+
+    *   Total = T + C + S = 160 + 80 + 20
+    *   160 + 80 = 240
+    *   240 + 20 = 260
+
+    *   Seattle: 20
+    *   Charleston: 4 * 20 = 80
+    *   Toulouse: 2 * 80 = 160
+    *   Total: 20 + 80 + 160 = 260.
+
+    *   Solve briefly.
+    *   End with 'Answer: <number>'.<channel|>*   Seattle: 20 sheep.
+*   Charleston: 4 × 20 = 80 sheep.
+*   Toulouse: 2 × 80 = 160 sheep.
+*   Total: 20 + 80 + 160 = 260 sheep.
+
+Answer: 260
+total time: 5508.35ms, time per step: 367.22ms (15 steps over 2 blocks, entropy-bound)
+throughput: 92.9 tok/s (512 tok in 5508.35ms), in-step parallel 697 tok/s (256-tok canvas x 7.5 steps/block)
