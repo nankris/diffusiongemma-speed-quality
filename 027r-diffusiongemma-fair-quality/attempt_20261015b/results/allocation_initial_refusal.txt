@@ -1,0 +1,1 @@
+2026-10-15 ~06:57 UTC: colab new --gpu L4 -s tig027r-b returned allocation refused (precondition failed). Usage: balance 178.23 CU, 3.08 CU/hour, 2 active assignments. No session allocated. Retry worker waits at least five minutes between allocation requests.

@@ -1,0 +1,9 @@
+{
+  "distinct_questions": 300,
+  "round1": 150,
+  "round2_new": 150,
+  "byte_identical_prompt_source": true,
+  "thinking": "empty thought channel",
+  "prompts_sha256": "e7f8b60b502bb397ab46275ffda275b891e855efc97c680e97e1124b2a57d5ec",
+  "tokenizer_sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f"
+}
