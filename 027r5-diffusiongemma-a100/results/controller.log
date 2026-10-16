@@ -1,0 +1,1592 @@
+NVIDIA A100-SXM4-40GB, 40960 MiB
+SETUP_LAUNCHED
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log reads: TRUE
+-- Warning: ccache not found - consider installing it for faster compilation or disable this warning with GGML_CCACHE=OFF
+-- CMAKE_SYSTEM_PROCESSOR: x86_64
+-- GGML_SYSTEM_ARCH: x86
+-- Found OpenMP_C: -fopenmp (found version "4.5")
+-- Found OpenMP_CXX: -fopenmp (found version "4.5")
+-- Found OpenMP: TRUE (found version "4.5")
+-- Including CPU backend
+-- x86 detected
+-- Adding CPU backend variant ggml-cpu: -march=native 
+-- Found CUDAToolkit: /usr/local/cuda/targets/x86_64-linux/include;/usr/local/cuda/targets/x86_64-linux/include/cccl (found version "13.0.88")
+-- CUDA Toolkit found
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log bm.cpp.o
+[  6%] Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/quants.c.o
+[  6%] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o
+[  6%] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o
+[  6%] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o
+[  8%] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/tiled/tiled.cpp.o
+[  8%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/add-id.cu.o
+[  8%] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/tiled/tiled-kernel.cpp.o
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/argsort.cu.o
+[ 12%] Building C object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/quants.c.o
+[ 12%] Building CXX object ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/x86/repack.cpp.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/binbcast.cu.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/clamp.cu.o
+[ 12%] Linking CXX shared library ../../bin/libggml-cpu.so
+[ 12%] Built target ggml-cpu
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/col2im-1d.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log  CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/col2im-1d.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/concat.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv-transpose-1d.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv2d-dw.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv2d-transpose.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv2d.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv3d.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log 6%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv2d.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/conv3d.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/convert.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/count-equal.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/cpy.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/cross-entropy-loss.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/cumsum.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log e.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/fattn.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/fill.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/fwht.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/gated_delta_net.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/getrows.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/ggml-cuda.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/gla.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log ws.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/ggml-cuda.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/gla.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/im2col.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/lightning-indexer.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mean.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mmf.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/mmid.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log cu.o
+[ 26%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/out-prod.cu.o
+[ 26%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/pad.cu.o
+[ 26%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/pad_reflect_1d.cu.o
+[ 26%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/pool1d.cu.o
+[ 26%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/pool2d.cu.o
+[ 28%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/quantize.cu.o
+[ 28%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/roll.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log .dir/roll.cu.o
+[ 28%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/rope.cu.o
+[ 28%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/scale.cu.o
+[ 28%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/set-rows.cu.o
+[ 28%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/set.cu.o
+[ 30%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/snake.cu.o
+[ 30%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/softcap.cu.o
+[ 30%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/softmax.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log dir/sumrows.cu.o
+[ 32%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/top-k.cu.o
+[ 32%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/topk-moe.cu.o
+[ 32%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/tri.cu.o
+[ 34%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/tsembd.cu.o
+[ 34%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/unary.cu.o
+[ 34%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/upscale.cu.o
+[ 34%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/wkv.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log a/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq112-dv112.cu.o
+[ 34%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq128-dv128.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq192-dv128.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq256-dv256.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq320-dv256.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log uda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq256-dv256.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq320-dv256.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq40-dv40.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq512-dv512.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq576-dv512.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log -cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq320-dv256.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq40-dv40.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq512-dv512.cu.o
+[ 36%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq576-dv512.cu.o
+[ 38%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq64-dv64.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log /CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq64-dv64.cu.o
+[ 38%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq72-dv72.cu.o
+[ 38%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq80-dv80.cu.o
+[ 38%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-tile-instance-dkq96-dv96.cu.o
+[ 38%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_16.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log s/fattn-mma-f16-instance-ncols1_1-ncols2_32.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_8.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_1.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_2.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_4.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log s/fattn-mma-f16-instance-ncols1_1-ncols2_32.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_1-ncols2_8.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_1.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_2.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_4.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log s/fattn-mma-f16-instance-ncols1_16-ncols2_2.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_16-ncols2_4.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_16.cu.o
+[ 40%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_32.cu.o
+[ 42%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_4.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log es/fattn-mma-f16-instance-ncols1_2-ncols2_32.cu.o
+[ 42%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_4.cu.o
+[ 42%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_2-ncols2_8.cu.o
+[ 42%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_32-ncols2_1.cu.o
+[ 42%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_32-ncols2_2.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log ces/fattn-mma-f16-instance-ncols1_4-ncols2_16.cu.o
+[ 42%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_2.cu.o
+[ 44%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_4.cu.o
+[ 44%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_8.cu.o
+[ 44%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_64-ncols2_1.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log nces/fattn-mma-f16-instance-ncols1_4-ncols2_2.cu.o
+[ 44%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_4.cu.o
+[ 44%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_4-ncols2_8.cu.o
+[ 44%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_64-ncols2_1.cu.o
+[ 44%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/fattn-mma-f16-instance-ncols1_8-ncols2_1.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log nstance-iq2_s.cu.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xs.cu.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xxs.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_s.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_xxs.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_nl.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log nstance-iq2_s.cu.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xs.cu.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xxs.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_s.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_xxs.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_nl.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log nstance-iq2_s.cu.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xs.cu.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xxs.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_s.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_xxs.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_nl.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log stance-iq2_xs.cu.o
+[ 12%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq2_xxs.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_s.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq3_xxs.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_nl.cu.o
+[ 14%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-iq4_xs.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log tances/mmq-instance-q2_0.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q2_k.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q3_k.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_0.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_1.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_k.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log tances/mmq-instance-q3_k.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_0.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_1.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_k.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_0.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_1.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log tances/mmq-instance-q4_0.cu.o
+[ 16%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_1.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q4_k.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_0.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_1.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_k.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log tances/mmq-instance-q4_k.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_0.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_1.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q5_k.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q6_k.cu.o
+[ 18%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmq-instance-q8_0.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log -q8_0.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_1.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_10.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_11.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_12.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_13.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log s_11.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_12.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_13.cu.o
+[ 20%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_14.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_15.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_16.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log e-ncols_3.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_4.cu.o
+[ 22%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_5.cu.o
+[ 24%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_6.cu.o
+[ 24%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_7.cu.o
+[ 24%] Building CUDA object ggml/src/ggml-cuda/CMakeFiles/ggml-cuda.dir/template-instances/mmf-instance-ncols_8.cu.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 40960 MiB
+SETUP_LAUNCHED
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log pp.o
+[ 69%] Building CXX object src/CMakeFiles/llama.dir/llama-hparams.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/llama.dir/llama-impl.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/llama.dir/llama-io.cpp.o
+[ 69%] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o
+[ 71%] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-iswa.cpp.o
+[ 71%] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-dsa.cpp.o
+[ 71%] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-dsa-iswa.cpp.o
+[ 71%] Building CXX object src/CMakeFiles/llama.dir/llama-kv-cache-msa.cpp.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log /llama.dir/llama-mmap.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/llama.dir/llama-model-loader.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/llama.dir/llama-model-saver.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/llama.dir/llama-model.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/llama.dir/llama-quant.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/llama.dir/llama-sampler.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/llama.dir/llama-vocab.cpp.o
+[ 77%] Building CXX object src/CMakeFiles/llama.dir/unicode-data.cpp.o
+[ 77%] Building CXX object src/CMakeFiles/llama.dir/unicode.cpp.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log mmon/CMakeFiles/llama-common.dir/subproc.cpp.o
+[ 93%] Building CXX object common/CMakeFiles/llama-common.dir/trie.cpp.o
+[ 95%] Building CXX object common/CMakeFiles/llama-common.dir/unicode.cpp.o
+[ 95%] Building CXX object common/CMakeFiles/llama-common.dir/jinja/lexer.cpp.o
+[ 95%] Building CXX object common/CMakeFiles/llama-common.dir/jinja/parser.cpp.o
+[ 95%] Building CXX object common/CMakeFiles/llama-common.dir/jinja/runtime.cpp.o
+[ 95%] Building CXX object common/CMakeFiles/llama-common.dir/jinja/value.cpp.o
+[ 95%] Building CXX object common/CMakeFiles/llama-common.dir/jinja/string.cpp.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log  tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper-gen.cpp.o
+[ 80%] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/mtmd-helper.cpp.o
+[ 80%] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/clip.cpp.o
+[ 82%] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/models/cogvlm.cpp.o
+[ 82%] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/models/conformer.cpp.o
+[ 82%] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/models/deepseek4v.cpp.o
+[ 82%] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/models/dots3note.cpp.o
+[ 82%] Building CXX object tools/mtmd/CMakeFiles/mtmd.dir/models/dotsocr.cpp.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log ools/server/CMakeFiles/server-context.dir/server-queue.cpp.o
+[ 96%] Building CXX object tools/server/CMakeFiles/server-context.dir/server-decision.cpp.o
+[ 96%] Building CXX object tools/server/CMakeFiles/server-context.dir/server-context.cpp.o
+[ 96%] Building CXX object tools/server/CMakeFiles/server-context.dir/server-stream.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/server-context.dir/server-tools.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/server-context.dir/server-mcp.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/server-context.dir/server-schema.cpp.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log t tools/server/CMakeFiles/server-context.dir/server-tools.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/server-context.dir/server-mcp.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/server-context.dir/server-schema.cpp.o
+[ 98%] Linking CXX static library libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 0 MiB, 0 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+dg 0
+ar 0
+ARCHIVE_READY
+
+RUN_LAUNCHED
+
+NVIDIA A100-SXM4-40GB, 17280 MiB, 89 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log second)
+0.20.839.268 I slot print_timing: id  0 | task 951 |       total time =    2383.85 ms /   372 tokens
+0.20.839.270 I slot print_timing: id  0 | task 951 |    graphs reused =       1165
+0.20.839.270 I slot print_timing: id  0 | task 951 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.20.839.321 I slot      release: id  0 | task 951 | stop processing: n_tokens = 371, truncated = 0
+0.20.844.829 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1106246088
+0.20.927.068 I slot launch_slot_: id  0 | task 1188 | processing task, is_child = 0
+
+dg 0
+ar 5
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17280 MiB, 89 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log nd)
+0.34.865.563 I slot print_timing: id  0 | task 2181 |       total time =    3844.49 ms /   514 tokens
+0.34.865.564 I slot print_timing: id  0 | task 2181 |    graphs reused =       2523
+0.34.865.565 I slot print_timing: id  0 | task 2181 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.34.865.603 I slot      release: id  0 | task 2181 | stop processing: n_tokens = 513, truncated = 0
+0.34.871.700 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1120272366
+0.34.975.039 I slot launch_slot_: id  0 | task 2567 | processing task, is_child = 0
+
+dg 0
+ar 9
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 52 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log nd)
+0.48.690.619 I slot print_timing: id  0 | task 3537 |       total time =    3824.79 ms /   476 tokens
+0.48.690.620 I slot print_timing: id  0 | task 3537 |    graphs reused =       3859
+0.48.690.621 I slot print_timing: id  0 | task 3537 |   graph reallocs =          0    /     0        (same size) / (changed size)
+0.48.690.654 I slot      release: id  0 | task 3537 | stop processing: n_tokens = 475, truncated = 0
+0.48.696.175 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1134097417
+0.48.788.174 I slot launch_slot_: id  0 | task 3923 | processing task, is_child = 0
+
+dg 0
+ar 13
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 0 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log  1150.55 tokens per second)
+1.11.123.016 I slot print_timing: id  0 | task 5741 |        eval time =    3738.33 ms /   384 tokens (    9.76 ms per token,   102.45 tokens per second)
+1.11.123.017 I slot print_timing: id  0 | task 5741 |       total time =    3818.29 ms /   476 tokens
+1.11.123.019 I slot print_timing: id  0 | task 5741 |    graphs reused =       6028
+1.11.123.019 I slot print_timing: id  0 | task 5741 |   graph reallocs =          0    /     0        (same size) / (changed size)
+1.11.123.052 I slot      release: id  0 | task 5741 | stop processing: n_tokens = 475, truncated = 0
+
+dg 0
+ar 20
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 88 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log nd)
+1.35.915.886 I slot print_timing: id  0 | task 6979 |       total time =    1812.38 ms /   264 tokens
+1.35.915.887 I slot print_timing: id  0 | task 6979 |    graphs reused =       7062
+1.35.915.887 I slot print_timing: id  0 | task 6979 |   graph reallocs =          0    /     0        (same size) / (changed size)
+1.35.915.914 I slot      release: id  0 | task 6979 | stop processing: n_tokens = 263, truncated = 0
+1.35.921.769 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1181322678
+1.35.971.209 I slot launch_slot_: id  0 | task 7181 | processing task, is_child = 0
+
+dg 0
+ar 24
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 88 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log nd)
+1.50.414.616 I slot print_timing: id  0 | task 8531 |       total time =    2072.33 ms /   306 tokens
+1.50.414.617 I slot print_timing: id  0 | task 8531 |    graphs reused =       8618
+1.50.414.618 I slot print_timing: id  0 | task 8531 |   graph reallocs =          0    /     0        (same size) / (changed size)
+1.50.414.647 I slot      release: id  0 | task 8531 | stop processing: n_tokens = 305, truncated = 0
+1.50.420.426 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1195821411
+1.50.481.438 I slot launch_slot_: id  0 | task 8762 | processing task, is_child = 0
+
+dg 0
+ar 29
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 88 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log .05.427.330 I slot print_timing: id  0 | task 10187 |       total time =    1887.98 ms /   277 tokens
+2.05.427.332 I slot print_timing: id  0 | task 10187 |    graphs reused =      10225
+2.05.427.332 I slot print_timing: id  0 | task 10187 |   graph reallocs =          0    /     0        (same size) / (changed size)
+2.05.427.359 I slot      release: id  0 | task 10187 | stop processing: n_tokens = 276, truncated = 0
+2.05.433.178 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1210834123
+2.05.489.026 I slot launch_slot_: id  0 | task 10398 | processing task, is_child = 0
+
+dg 0
+ar 35
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 0 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log .26 tokens per second)
+2.19.724.340 I slot print_timing: id  0 | task 11576 |        eval time =    3355.26 ms /   384 tokens (    8.76 ms per token,   114.15 tokens per second)
+2.19.724.341 I slot print_timing: id  0 | task 11576 |       total time =    3435.82 ms /   484 tokens
+2.19.724.342 I slot print_timing: id  0 | task 11576 |    graphs reused =      11764
+2.19.724.343 I slot print_timing: id  0 | task 11576 |   graph reallocs =          0    /     0        (same size) / (changed size)
+2.19.724.397 I slot      release: id  0 | task 11576 | stop processing: n_tokens = 483, truncated = 0
+
+dg 0
+ar 40
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 88 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log .55.995.105 I slot print_timing: id  0 | task 13674 |       total time =    3238.97 ms /   483 tokens
+2.55.995.106 I slot print_timing: id  0 | task 13674 |    graphs reused =      13802
+2.55.995.107 I slot print_timing: id  0 | task 13674 |   graph reallocs =          0    /     0        (same size) / (changed size)
+2.55.995.144 I slot      release: id  0 | task 13674 | stop processing: n_tokens = 482, truncated = 0
+2.56.000.833 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1261401907
+2.56.097.013 I slot launch_slot_: id  0 | task 14035 | processing task, is_child = 0
+
+dg 0
+ar 47
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 88 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log .12.191.456 I slot print_timing: id  0 | task 15455 |       total time =    3087.28 ms /   433 tokens
+3.12.191.457 I slot print_timing: id  0 | task 15455 |    graphs reused =      15538
+3.12.191.458 I slot print_timing: id  0 | task 15455 |   graph reallocs =          0    /     0        (same size) / (changed size)
+3.12.191.489 I slot      release: id  0 | task 15455 | stop processing: n_tokens = 432, truncated = 0
+3.12.197.716 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1277598253
+3.12.280.255 I slot launch_slot_: id  0 | task 15801 | processing task, is_child = 0
+
+dg 0
+ar 53
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 0 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log .17 tokens per second)
+3.28.538.900 I slot print_timing: id  0 | task 17408 |        eval time =    1298.90 ms /   150 tokens (    8.72 ms per token,   114.71 tokens per second)
+3.28.538.901 I slot print_timing: id  0 | task 17408 |       total time =    1362.08 ms /   207 tokens
+3.28.538.903 I slot print_timing: id  0 | task 17408 |    graphs reused =      17264
+3.28.538.904 I slot print_timing: id  0 | task 17408 |   graph reallocs =          0    /     0        (same size) / (changed size)
+3.28.538.931 I slot      release: id  0 | task 17408 | stop processing: n_tokens = 206, truncated = 0
+
+dg 0
+ar 60
+ARCHIVE_READY
+
+NVIDIA A100-SXM4-40GB, 17290 MiB, 88 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log .53.958.598 I slot print_timing: id  0 | task 18288 |       total time =    2615.19 ms /   385 tokens
+3.53.958.600 I slot print_timing: id  0 | task 18288 |    graphs reused =      18265
+3.53.958.600 I slot print_timing: id  0 | task 18288 |   graph reallocs =          0    /     0        (same size) / (changed size)
+3.53.958.634 I slot      release: id  0 | task 18288 | stop processing: n_tokens = 384, truncated = 0
+3.53.964.751 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1319365397
+3.54.040.601 I slot launch_slot_: id  0 | task 18580 | processing task, is_child = 0
+
+dg 0
+ar 64
+ARCHIVE_READY
+

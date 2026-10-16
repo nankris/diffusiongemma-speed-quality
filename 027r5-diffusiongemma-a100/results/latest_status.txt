@@ -1,0 +1,40 @@
+NVIDIA A100-SXM4-40GB, 17290 MiB, 88 %
+setup.log ary libserver-context.a
+[ 98%] Built target server-context
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-http.cpp.o
+[ 98%] Building CXX object tools/server/CMakeFiles/llama-server-impl.dir/server-models.cpp.o
+[ 98%] Linking CXX shared library ../../bin/libllama-server-impl.so
+[ 98%] Built target llama-server-impl
+[100%] Building CXX object tools/server/CMakeFiles/llama-server.dir/main.cpp.o
+[100%] Linking CXX executable ../../bin/llama-server
+[100%] Built target llama-server
+
+download_dg.log [90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:52<00:00, 52.93s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg
+
+download_ar.log 
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+Fetching 1 files: 100%|██████████| 1/1 [00:45<00:00, 45.30s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/g4
+
+run.log 
+ar.log .53.958.598 I slot print_timing: id  0 | task 18288 |       total time =    2615.19 ms /   385 tokens
+3.53.958.600 I slot print_timing: id  0 | task 18288 |    graphs reused =      18265
+3.53.958.600 I slot print_timing: id  0 | task 18288 |   graph reallocs =          0    /     0        (same size) / (changed size)
+3.53.958.634 I slot      release: id  0 | task 18288 | stop processing: n_tokens = 384, truncated = 0
+3.53.964.751 I slot get_availabl: id  0 | task -1 | selected slot by LRU, t_last = 1319365397
+3.54.040.601 I slot launch_slot_: id  0 | task 18580 | processing task, is_child = 0
+
+dg 0
+ar 64
+ARCHIVE_READY

@@ -1,0 +1,9 @@
+{"time": "2026-10-16T03:37:22.785516+00:00", "event": "preregistered", "balance": 171.05}
+{"epoch": 1792121890.2485433, "event": "session_owned", "session": "r5g027", "deadline": 1792123420.2452831}
+{"epoch": 1792122243.6399384, "event": "pre_inference_cap_audit", "fix": "DG returned vector capped at 384, full canvas timing retained"}
+{"epoch": 1792122385.8059213, "event": "build_parallelism_increased", "old": 4, "new": 12, "reason": "12 available CPUs; preserve CU for inference"}
+{"epoch": 1792122596.3644397, "event": "accounting_refined", "state": {"start": 1792121841.0, "session": "r5g027", "gpu": "A100", "rate_upper": 6.0, "deadline": 1792124631.0, "rate_basis": "Two identical standard A100 sessions, aggregate 10.60 CU/hour; equal per-session 5.30 with 13.2% buffer to 6.00"}}
+{"epoch": 1792122596.5501337, "event": "session_owned", "session": "r5g027", "deadline": 1792124631.0}
+{"epoch": 1792122838.6667778, "event": "batch_saved", "label": "ar_20"}
+{"epoch": 1792122908.319404, "event": "batch_saved", "label": "ar_40"}
+{"epoch": 1792122977.481755, "event": "batch_saved", "label": "ar_60"}

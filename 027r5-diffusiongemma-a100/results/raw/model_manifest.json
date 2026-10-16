@@ -1,0 +1,22 @@
+[
+  {
+    "arm": "dg",
+    "name": "diffusiongemma-26B-A4B-it-Q4_K_M.gguf",
+    "bytes": 16806810208
+  },
+  {
+    "arm": "dg",
+    "metadata_name": "diffusiongemma-26B-A4B-it-Q4_K_M.gguf.metadata",
+    "metadata": "f4183a2c7a354128d02545752303c4354d165bf0\n24523b6c833c9ce9f5f34f9b333ab1517d73d6f1e76a103645353114c8028bc5\n1792121954.96242\n"
+  },
+  {
+    "arm": "g4",
+    "name": "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "bytes": 16947541728
+  },
+  {
+    "arm": "g4",
+    "metadata_name": "gemma-4-26B-A4B-it-UD-Q4_K_M.gguf.metadata",
+    "metadata": "c099eb48e663fd284577b04978a94ffccb261841\nf2c28b3dc4776931ac6f879e11f203dec637ea0f14267a86ec8f6165f63f293f\n1792122000.9772031\n"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "n": 200,
+    "discordance": 0.05,
+    "equivalence_power": 0.9684352575856814,
+    "superiority_power_at_8pp": null
+  },
+  {
+    "n": 200,
+    "discordance": 0.1,
+    "equivalence_power": 0.7009291354135971,
+    "superiority_power_at_8pp": 0.9588978812903177
+  },
+  {
+    "n": 200,
+    "discordance": 0.15,
+    "equivalence_power": 0.41495922322678624,
+    "superiority_power_at_8pp": 0.8474621558838435
+  },
+  {
+    "n": 200,
+    "discordance": 0.2,
+    "equivalence_power": 0.1993554090928762,
+    "superiority_power_at_8pp": 0.729510558706683
+  }
+]
