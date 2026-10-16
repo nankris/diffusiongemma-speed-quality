@@ -1,0 +1,6 @@
+[90mHint: A new version of huggingface_hub (2.2.0) is available! You are using version 1.33.0.
+To update, run: hf update[0m
+[90mHint: The `hf-cli` skill is not installed. Run `hf skills add -g` to teach your AI agents how to use the `hf` CLI.[0m
+Fetching 1 files:   0%|          | 0/1 [00:00<?, ?it/s]Fetching 1 files: 100%|██████████| 1/1 [00:49<00:00, 49.41s/it]Fetching 1 files: 100%|██████████| 1/1 [00:49<00:00, 49.41s/it]
+[32m✓ Downloaded[0m
+  path: /content/m/dg

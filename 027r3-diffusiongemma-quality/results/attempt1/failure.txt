@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "/workspace/work/tig/027r3-diffusiongemma-quality/scripts/controller.py", line 29, in <module>
+    time.sleep(25);snapshot()
+                   ^^^^^^^^^^
+  File "/workspace/work/tig/027r3-diffusiongemma-quality/scripts/controller.py", line 12, in snapshot
+    out=cli(['exec','-s',SESSION,'-f',str(S/'remote_status.py'),'--timeout','45'],90)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/work/tig/027r3-diffusiongemma-quality/scripts/controller.py", line 4, in cli
+    p=subprocess.run(['colab']+args,capture_output=True,text=True,timeout=timeout)
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 550, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 1209, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/subprocess.py", line 2116, in _communicate
+    self._check_timeout(endtime, orig_timeout, stdout, stderr)
+  File "/usr/local/lib/python3.12/subprocess.py", line 1253, in _check_timeout
+    raise TimeoutExpired(
+subprocess.TimeoutExpired: Command '['colab', 'exec', '-s', 'r3027', '-f', '/workspace/work/tig/027r3-diffusiongemma-quality/scripts/remote_status.py', '--timeout', '45']' timed out after 90 seconds

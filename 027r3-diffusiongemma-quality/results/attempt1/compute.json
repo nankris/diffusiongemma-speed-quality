@@ -1,0 +1,10 @@
+{
+  "gpu": "NVIDIA L4",
+  "start_epoch": 1792109850.9851959,
+  "stop_epoch": 1792110315.0634673,
+  "allocation_minutes": 7.7346378564834595,
+  "cu_estimate": 0.19852237164974212,
+  "rate_cu_per_hour": 1.54,
+  "exact_billed_cu": null,
+  "note": "Allocation lifetime upper estimate; shared balance delta is not experiment-specific billing."
+}

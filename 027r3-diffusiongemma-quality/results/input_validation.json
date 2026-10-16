@@ -1,0 +1,9 @@
+{
+  "n": 300,
+  "unique_ids": 300,
+  "gold_and_questions_match_public_source": true,
+  "source": "https://raw.githubusercontent.com/openai/grade-school-math/master/grade_school_math/data/test.jsonl",
+  "source_sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+  "prompts_sha256": "5104134817f78e61254070776741c22ae0881c0237a83069e1ce38851417566e",
+  "tokenizer_sha256": "cc8d3a0ce36466ccc1278bf987df5f71db1719b9ca6b4118264f45cb627bfe0f"
+}

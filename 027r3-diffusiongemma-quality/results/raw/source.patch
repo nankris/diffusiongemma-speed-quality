@@ -1,0 +1,49 @@
+diff --git a/examples/diffusion/diffusion-cli.cpp b/examples/diffusion/diffusion-cli.cpp
+index 8f57aa0..2831007 100644
+--- a/examples/diffusion/diffusion-cli.cpp
++++ b/examples/diffusion/diffusion-cli.cpp
+@@ -1,3 +1,4 @@
++#include <fstream>
+ #include "arg.h"
+ #include "chat.h"
+ #include "common.h"
+@@ -153,6 +154,7 @@ int main(int argc, char ** argv) {
+         return 1;
+     }
+ 
++    params.enable_chat_template = false;
+     llama_backend_init();
+ 
+     llama_model_params model_params = llama_model_default_params();
+@@ -518,6 +520,11 @@ int main(int argc, char ** argv) {
+         const int64_t t0 = ggml_time_us();
+         std::string response = run_turn(formatted_prompt);
+         const int64_t turn_us = ggml_time_us() - t0;
++        if (const char * dir = std::getenv("FAIR_DIR")) {
++            static int fair_index = 0;
++            std::ofstream out(std::string(dir) + "/dg_" + std::to_string(fair_index++) + ".ms");
++            out << turn_us / 1000.0;
++        }
+         if (visual_mode) {
+             std::string fin;
+             if (cb_data.vis_prev_rows > 0) {
+@@ -548,6 +555,19 @@ int main(int argc, char ** argv) {
+         return response;
+     };
+ 
++
++    if (const char * input_path = std::getenv("FAIR_INPUT")) {
++        std::ifstream input(input_path);
++        std::string prompt;
++        int index = 0;
++        const std::string dir = std::getenv("FAIR_DIR");
++        while (std::getline(input, prompt, '\x1e')) {
++            const auto response = run_turn_reply(prompt);
++            const std::string stem = dir + "/dg_" + std::to_string(index++);
++            { std::ofstream out(stem + ".out"); out << response; }
++            { std::ofstream out(stem + ".done"); out << cb_data.steps_seen << " " << cb_data.blocks_seen; }
++        }
++    } else
+     if (params.conversation_mode == COMMON_CONVERSATION_MODE_ENABLED) {
+         if (!params.enable_chat_template) {
+             LOG_ERR("error: conversation mode requires a chat template\n");

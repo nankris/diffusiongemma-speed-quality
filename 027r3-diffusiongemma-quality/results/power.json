@@ -1,0 +1,22 @@
+[
+  {
+    "discordance": 0.05,
+    "equivalence_power": 0.9741281340070838,
+    "superiority_power_at_8pp": null
+  },
+  {
+    "discordance": 0.1,
+    "equivalence_power": 0.72593938012843,
+    "superiority_power_at_8pp": 0.9949024981203823
+  },
+  {
+    "discordance": 0.15,
+    "equivalence_power": 0.44562319137840345,
+    "superiority_power_at_8pp": 0.9551140276968371
+  },
+  {
+    "discordance": 0.2,
+    "equivalence_power": 0.2294366172812028,
+    "superiority_power_at_8pp": 0.8828234713405355
+  }
+]
